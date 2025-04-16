@@ -4,6 +4,9 @@ images:
 - name: ${ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/demo-frontend
   newName: ${ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/demo-frontend
   newTag: abcdefg
+- name: 390844776196.dkr.ecr.ap-northeast-2.amazonaws.com/demo-frontend
+  newName: 390844776196.dkr.ecr.ap-northeast-2.amazonaws.com/demo-frontend
+  newTag: 55758a54
 resources:
 - ../../base
 patchesStrategicMerge:
